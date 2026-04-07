@@ -1,0 +1,22 @@
+# Large binary data — regenerate from scripts, do not commit
+results/data/
+data/
+biomni_data/
+logs/
+.snakemake/
+
+# Projects contain large results/genotype data — not tracked in repo
+projects/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# System
+.DS_Store
+Thumbs.db
+.env
+.researchclaw_cache/
